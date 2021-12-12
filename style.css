@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(247, 238, 223);
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    justify-content: center;
+    color: #402218;
+}
+
+.banniere{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px auto;
+    background-image: url(image/totoro.png);
+    text-shadow: rosybrown;
+}
+
+.box-pp{ 
+    top: 180px;
+    margin-left: -75px;
+    left: 50%;
+    position: absolute;
+}
+
+.photo-pp{
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* première box */
+
+.container {
+    width: 1040px;
+    padding: 24px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.btn-brown {
+    border: solid 1px #402218;
+    background: #FFEBC9;
+    color: #402218;
+    padding: 9px;
+    width: 120px;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+.btn-brown:hover {
+    color: seashell;
+    background: tan;
+    border: solid 1px tan;
+    transition: 0.1s;
+}
+
+.card-white {
+    background: seashell;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px #D7B19D;
+    margin: 150px;
+    margin-bottom: 60px;
+    width: auto;
+
+}
+
+.card-two {
+    background: seashell;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px #D7B19D;
+    margin: 50px;
+    margin-bottom: 50px;
+
+}
+
+.btn-beige { 
+    border: solid 1px #402218;
+    background: #FFEBC9;
+    color: #402218;
+    padding: 9px;
+    width: 120px;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+.btn-beige:hover {
+    color: seashell;
+    background: tan;
+    border: solid 1px tan;
+    transition: 0.1s;
+}
+
+#card-img {
+    background-image: url(image/totoro.png);
+    background-position: center;
+    margin: 90px;
+    padding: 100px;
+
+}
+
+#card-img h2 {
+    color: seashell;
+}
+
+#card-img p { 
+    color: seashell;
+    font-weight: bolder;
+}
+
+#card-img-two { 
+    background-color: rgb(243, 220, 191);
+    color: #402218;
+    margin: 50px;
+    height: 190px;
+    text-justify: center;
+    font-style: italic;
+}
+
+#clear-word {
+    color: seashell;
+    font-size: 18px;
+    padding: 8px 10px 8px 10px;
+    background: #402218;
+    border-radius: 22px;
+}
+
+#social-media-list {
+    color: brown;
+    font-size: 12px;
+    list-style: none;
+    padding: 0;
+}
+
+#social-media-list li {
+    display: inline;
+    font-size: 40px;
+}
+
+#social-media-list li :hover {
+    color: tan;
+    transition: 0.1s;
+}
+
+/*media queries*/
+
+@media(max-width: 900px) {
+    .container{
+        width: 700px;
+    }
+}
+@media(max-width: 700px){
+    .container {
+        width: 500px;
+    }
+}
